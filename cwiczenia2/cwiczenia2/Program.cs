@@ -7,13 +7,13 @@ Console.WriteLine("Hello, World!");
 
 static double GetSrednia(int [] numbers )
 {
-    double result = 0.0;
+    double wynik = 0.0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        result += numbers[i];
+        wynik += numbers[i];
     }
 
-    return result / numbers.Length;
+    return wynik / numbers.Length;
 }
 
 int[] numbers = { 1, 2, 3, 4};
