@@ -5,7 +5,7 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 
-static double GetAverage(int [] numbers )
+static double GetSrednia(int [] numbers )
 {
     double result = 0.0;
     for (int i = 0; i < numbers.Length; i++)
@@ -17,7 +17,7 @@ static double GetAverage(int [] numbers )
 }
 
 int[] numbers = { 1, 2, 3, 4};
-double average = GetAverage(numbers);
+double average = GetSrednia(numbers);
 Console.WriteLine(average);
 
 static int GetMax(int[] numbersMax)
