@@ -23,7 +23,7 @@ Console.WriteLine(average);
 static int GetMax(int[] numbersMax)
 {
     int max = 0;
-    for (int i = 0; i < numbersMax.Length; i++)
+    for (int i = 0; i <= numbersMax.Length; i++)
     {
         if (max < i)
         {
